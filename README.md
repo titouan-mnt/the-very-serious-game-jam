@@ -69,7 +69,7 @@ Mastering the timing of your flick is the key to launching opponents into the la
 
 1. Extract the downloaded ZIP file.
 2. Open the extracted folder.
-3. Launch **YeetArena.exe**.
+3. Launch **GameJam.exe**.
 4. Enjoy!
 
 ---
