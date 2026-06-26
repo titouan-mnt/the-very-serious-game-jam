@@ -1,99 +1,81 @@
-The Very Serious Game Jam
+# YEET ARENA
 
-Overview
+## About the Game
 
-The Very Serious Game Jam is a chaotic physics-based arena game where players grab opponents and throw them across a rotating arena.
+YEET ARENA is a fast-paced arena brawler where the objective is simple:
 
-The key mechanic is flick-based throwing: fast mouse flicks launch opponents farther, while slower flicks result in weaker throws.
+Grab your opponents, throw them into the lava, and be the last one standing!
 
+The arena constantly rotates, making positioning and timing more challenging throughout the match.
 
-2. Controls
+---
 
-Movement
+## Objective
 
-* W / A / S / D - Move
-* Mouse - Rotate Camera
+* Eliminate every opponent.
+* Throw enemies off the arena into the lava.
+* Be the last player alive to win the match.
 
-Grab & Throw
+---
 
-* Left Mouse Button Press - Grab a nearby opponent
-* Flick Mouse While Holding - Build throw strength based on flick speed
-* Left Mouse Button Release - Throw the grabbed opponent
+## Controls
 
+| Action      | Control                       |
+| ----------- | ----------------------------- |
+| Move        |   W A S D                     |
+| Look Around |   Mouse                       |
+| Grab        |   Left Mouse Button (Press)   |
+| Throw       |   Release Left Mouse Button   |
 
+---
 
-3. Core Mechanics
+## Throw Mechanics
 
-Grab System
+The strength of your throw depends on how quickly you release the mouse button after grabbing an opponent:
 
-Players can grab nearby opponents and temporarily carry them around the arena.
+* Slow Flick → Weak throw
+* Medium Flick → Moderate throw
+* Fast Flick → Strong throw
+* Long Flick → Maximum throw distance
 
-A grabbed player remains attached to the grabber until:
+Mastering the timing of your flick is the key to launching opponents into the lava.
 
-* The grabber releases them.
-* The grabber throws them.
-* The hold timer expires.
+---
 
+## How to Play
 
+1. Move around the rotating arena.
+2. Get close to an opponent.
+3. Press Left Mouse Button to grab them.
+4. Flick and release the Left Mouse Button to throw them.
+5. Knock opponents into the lava.
+6. Be the last player standing to win the match.
 
-Flick Throw System
+---
 
-Throw strength is determined by mouse flick speed.
+## Features
 
-* Slow flick = Short throw
-* Fast flick = Long throw
-
-Players must time and aim their flicks carefully to launch opponents effectively.
-
-
-Force Release
-
-Players cannot hold opponents forever.
-
-If a player is held longer than the maximum hold duration, the game automatically releases them.
-
-Current hold duration:
-
- 2 seconds
-
-
-
-Grab Cooldown
-
-After a grab ends, the grabber enters a cooldown period.
-
-During this cooldown:
-
-* The player cannot grab another opponent.
-* The player can still be grabbed by others.
-
-Current cooldown:
-
- 5 seconds
-
-
-
-Rotating Arena
-
-The arena continuously rotates throughout the match.
-
-The rotating platform affects:
-
-* Player positioning
-* Movement
-* Physics interactions
-* Throw trajectories
-
-Players must constantly adapt to the arena's movement while grabbing and throwing opponents.
-
-
-4. Current Features
-
-* Third-person movement
-* Flick-based throw system
-* Grab mechanic
-* Force release system
-* Grab cooldown system
+* Grab and throw combat
+* Flick-based throw strength
 * Rotating arena
-* Physics-based interactions
+* Lava elimination
+* Last-player-standing gameplay
+* Victory and defeat screens
+* Main menu and settings menu
 
+---
+
+## Installation
+
+1. Extract the downloaded ZIP file.
+2. Open the extracted folder.
+3. Launch **YeetArena.exe**.
+4. Enjoy!
+
+---
+
+## Team
+
+Created as part of a Game Jam project.
+
+Thank you for playing YEET ARENA!
